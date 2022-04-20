@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+body{
+  background: rgb(252, 248, 248);
+}
+ h2{
+   text-align: center;
+   color: rgb(10, 1, 1);
+ }
+.slides{
+  width: 70%;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: url("x3m.jpg");
+  background-size: 100% 100%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 2px 5px black;
+  animation: slider 10s infinite;
+  animation-delay: 2s;
+}
+@keyframes slider{
+  0%{background-image: url("x3m.jpg");}
+  25%{background-image: url("grancoupe.jpeg");}
+  50%{background-image: url("Z4.jpg"); }
+  75%{background-image: url("8series.jpg"); }
+}
+
+.img{
+  margin-top: 250pxpx;
+}
+ .img >h2{
+   font-size: 30px;
+ }
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  margin-top: 20px;
+  z-index: 1;
+  display: none;
+  box-shadow: 0 10px 20px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.text{
+  font-size: 12px;
+  text-align: left;
+  padding: 20px 15px;
+}
+.btn{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.btn-1{
+  background-color: black;
+}
+</style>  
+</head>
+<body>
+  <h2>BMW CARS</h2>
+  <div class="slides"></div>
+  <hr style="margin-top: 490px; opacity: 0.4;">
+<div class="img">
+  <h2>MODELS</h2>
+  <div class="gallery">
+    <div class="dropdown">
+      <img src="grancoupe.jpeg" width="150" height="100">
+      <div class="dropdown-content">
+        <img src="grancoupe.jpeg" alt="image" width="300" height="200">
+        <div class="text">
+          <span style="font-weight: bold;"> 2 Series Gran Coupé</span><br>
+          Starting from~₹ 3,890,000<br>
+          The first-ever BMW 2 Series Gran Coupé perfectly blends the comfort of a sedan and the sportiness of a coupé. The new ‘Black Shadow’ edition with BMW ‘M’ Performance parts offers an excellent athletic edge which further enhances the sporty character of the car in all aspects. Designed with a focus on dynamics, 
+          it demonstrates powerful uniqueness tailored to suit the requirements of motorsport enthusiastic customers.
+        </div>
+        <a href="" class="btn btn-1">Learn More</a>
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+      <img src="3series.jpg" width="150" height="100">
+      <div class="dropdown-content">
+        <img src="3series.jpg" alt="image" width="300" height="200">
+        <div class="text">
+          <span style="font-weight: bold;"> BMW 3 Series Sedan</span><br>
+          Starting from~₹ 4,490,000<br>
+          Barely on the road and the BMW 3 Series is already leaving everything behind it,
+           including conventions and expectations. Once again the icon displays how to reinvent itself. After all, with the pioneering design language, it stands for the dawning of a new era. Propelling the ultimate sports sedan are even more powerful and efficient engines. And a new force – simply say "Hey BMW" and the BMW 3 Series recognises your voice and heeds your every word.
+        </div>
+        <a href="https://www.bmw.in/en/all-models/3-series/sedan/2019/bmw-3-series-sedan-inspire.html" class="btn btn-1">Learn More</a>
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+      <img src="granlimo.jpg" width="150" height="100">
+      <div class="dropdown-content">
+    <img src="granlimo.jpg" alt="image" width="300" height="200">
+        <div class="text">
+          <span style="font-weight: bold;"> BMW 3 Series Gran Limousine</span><br>
+          Starting from~₹ 5,250,000<br>
+          Icons come in many forms. The BMW 3 Series Gran Limousine is an extravagant proof of that. With an extended wheelbase of 110 mm it combines the legendary sportiness and pure driving dynamics of the BMW 3 Series with the generous space and luxurious comfort of a high-class limousine. Innovative design meets intelligent technology.
+          Driving pleasure meets comfort zone. Experience the BMW 3 Series Gran Limousine now..
+        </div>
+        <a href="https://www.bmw.in/en/all-models/3-series/gran-limousine/2021/bmw-3-series-gran-limousine-highlights.html" class="btn btn-1">Learn More</a>
+      </div>
+    </div>
+    
+    <div class="dropdown">
+      <img src="m34oi.jpg" width="150" height="100">
+      <div class="dropdown-content">
+        <img src="m34oi.jpg" alt="image" width="300" height="200">
+        <div class="text">
+          <span style="font-weight: bold;"> BMW M340i xDrive Sedan</span><br>
+          Starting from~₹ 6,290,000<br>
+         The BMW M340i xDrive Sedan combines the traditionally sporty genes of the BMW 3 Series Sedan with exclusive motorsport DNA. The result: a car with powerful BMW TwinPower Turbo engines, suspension components from BMW M GmbH tuned down to the finest detail and
+          excitingly sporty design that brings the love of motor racing onto the road with every single metre.
+        </div>
+        <a href="https://www.bmw.in/en/all-models/m-series/bmw-m340i-xdrive-sedan/2019/bmw-3-series-sedan-m-automobiles-highlights.html" class="btn btn-1">Learn More</a>
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+      <img src="BMW_5_series.jpg" width="150" height="100">
+      <div class="dropdown-content">
+        <img src="BMW_5_series.jpg" alt="image" width="300" height="200">
+        <div class="text">
+          <span style="font-weight: bold;"> BMW 5 Series Sedan</span><br>
+          Starting from~₹ 6,290,000<br>
+          THE 5 is the epitome of a sporty business saloon. At very first sight it conveys an impression of stylish athleticism that particularly expresses itself in the dynamic silhouette and reduced design language. Clear surfaces and precise contours lend the elegant exterior a modern, technical atmosphere. The elegant and functional interior completes the innovative ambition of the vehicle with future-oriented technologies and sporty features.
+          In combination with impressive driving dynamics and innovative technologies, THE 5 provides comfort, self-assuredness and, above all, a supreme level of sheer driving pleasures on journeys both short and long.
+          BMW 530d:
+           Acceleration 0–100 km/h in seconds: 5.7
+           Max Output in Kw(hp) at 1/min: 195 (265)/4,000
+           Torque in Nm at 1/min: 620/2,000-2,500 
+        </div>
+        <a href="https://www.bmw.in/en/all-models/5-series/sedan/2020/bmw-5-series-sedan-highlights.html" class="btn btn-1">Learn More</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <img src="6series.jpg" width="150" height="100">
+      <div class="dropdown-content">
+        <img src="6series.jpg" alt="image" width="300" height="200">
+        <div class="text">
+          <span style="font-weight: bold;"> BMW 6 Series Gran Turismo</span><br>
+          Starting from~₹ 6,790,000<br>
+          Sophisticated in every respect: THE 6 stands for elegant and unique design, all-round ride comfort and self-assured driving dynamics. The distinctive exterior with its new shape of kidney grille and a modified light design highlights the individual optics of the vehicle, causing it to appear even more progressive. The interior reveals a luxurious sense of spaciousness,
+          refined with high-quality materials and innovative features. In combination, with perfectly tuned driving dynamics, any journey in The 6 simply cannot be long enough.
+
+          THE 6:
+          Max. output in kW (hp) at 1/min (630d) - 195 (265)/ 4,000  
+          Max. torque in Nm at 1/min (630d) - 620/2,000-2,500
+                   
+        </div>
+        <a href="https://www.bmw.in/en/all-models/6-series/gran-turismo/2020/bmw-6-series-gran-turismo-highlights.html" class="btn btn-1">Learn More</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <img src="7series.jpg" width="150" height="100">
+      <div class="dropdown-content">
+        <img src="7series.jpg" alt="image" width="300" height="200">
+        <div class="text">
+          <span style="font-weight: bold;"> BMW 7 Series Saloon</span><br>
+          Starting from~₹ 13,790,000<br>
+          The finest materials and powerful innovations, the BMW 7 Series Saloon, 
+          delivers a new echelon of driving pleasure. Imagined, designed and crafted for individuals who value every moment, 
+          discover an experience inspired by those who drive the world.
+        </div>
+        <a href="https://www.bmw.in/en/all-models/7-series/sedan/2019/bmw-7-series-sedan-inspire.html" class="btn btn-1">Learn More</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <img src="8series.jpg" width="150" height="100">
+      <div class="dropdown-content">
+        <img src="8series.jpg" alt="image" width="300" height="200">
+        <div class="text">
+          <span style="font-weight: bold;"> BMW 8 Series Gran Coupé</span><br>
+          Starting from~₹ 13,250,000<br>
+          the BMW 8 Series Gran Coupé is a breathtaking four-door sports car with a generous sensation of space. Its design is aesthetics in its most thrilling form. It establishes a completely new design language for luxurious sports cars, conveying unbridled power and impressive agility. The BMW 8 Series Gran Coupé keeps this uncompromisingly sporty promise on every metre of asphalt. 
+          As soon as the spirited engine sends the rev counter soaring to new heights, passenger pulses start climbing too. In all four seats – in an irresistibly exclusive and at the same time impressively sporty ambience.
+
+          BMW 840i Gran Coupé:
+          Fuel consumption in km/l (combined): 11.3
+          CO2 emissions in g/km (combined): 210
+                   
+        </div>
+        <a href="https://www.bmw.in/en/all-models/8-series/gran-coupe/2020/bmw-8-series-gran-coupe-inspire.html" class="btn btn-1">Learn More</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+
+</html>

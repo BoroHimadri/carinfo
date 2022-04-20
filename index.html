@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luxurious cars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="C:\Users\Lenovo pc\Downloads\fontawesome-free-5.15.4-web\css\all.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="bg">
+    <div class="topnav" id="myTopnav">
+          <a href="vehicle.html">VEHICLES</a>
+          <a href="model.html">MODELS</a>
+          <a href="Mercedes-Benz.pdf">DOWNLOAD BROCHURE</a>
+          <div class="dropdown">
+              <button class="dropbtn">KNOW MORE 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+             
+                <a href="#row1">ABOUT US</a>
+                <a href="#row1">CONTACT US</a>
+                <a href="#row1">FEEDBACK</a>
+              </div> 
+          </div>
+    </div> 
+    <div class="buttons" >
+        <a href="audi.html">AUDI</a>
+        <a href="mercedes.html">MERCEDES</a>
+        <a href="bmw.html">BMW</a>
+    </div>
+</div>
+<div class="new">
+    <h2>DEMO CARS</h2>
+<div class="row">
+    <div class="column">
+      <img src="audiA4.jpeg"  onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="audiRS5.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="Mercedes-Benz-Aclass.jpeg"  onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="bmw.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+</div>
+  
+  <div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="audiA4New.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="audiRS5New.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="mercedes.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="bmw.jpg" style="width:100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+  
+      <div class="column">
+        <img class="demo " src="audiA4New.jpg" style="width: 100%;" onclick="currentSlide(1)" alt="Audi A8">
+      </div>
+      <div class="column">
+        <img class="demo " src="audiRS5New.jpg" style="width: 100%;" onclick="currentSlide(2)" alt="Audi RS5">
+      </div>
+      <div class="column">
+        <img class="demo" src="mercedes.jpg" style="width: 100%;" onclick="currentSlide(3)" alt="Mercedes">
+      </div>
+      <div class="column">
+        <img class="demo" src="bmw.jpg" style="width: 100%;" onclick="currentSlide(4)" alt="BMW">
+      </div>
+    </div>
+  </div>  
+</div>
+  <div id="cols">
+  <h2>KNOW MORE</h2>
+  <div id="row1">
+    <div class="column1" style="background-color:rgb(173, 173, 241);">
+      <h2>ABOUT US</h2>
+      <p>We recognize and celebrate success better than any other company. We are trying to provide<br>
+          each and every possible details regarding a car as we can. Please feel free to contact us<br>
+          if you have any query and give feedback about our website in the given feedback<br>
+           form.<br><br>
+           <span style="color:rgb(14, 136, 24);font-weight: bold;">Thanks for visiting our website</span>
+      </p>
+    </div>
+    <div class="column1" style="background-color:rgb(129, 204, 85);">
+      <h2>CONTACT US</h2>
+      <p>Name: Luxurious CAR<br>
+        Country:India <br>
+        State:XYZ <br>
+        City: XYZ<br>
+        Street:XYZ<br>
+        Phone-No: 987583920<br>
+        pin:XYZ
+      </p>
+    </div>
+    <div class="column1" style="background-color:rgb(245, 147, 122);">
+      <h2>FEEDBACK</h2>
+      <form>
+        <label for="EMAIL ID">Email Id:</label><br>
+        <input type="text" name="Email id" id="Email id"><br>
+        <label for="user-password">Password:
+        </label><br>
+        <input type="password" name="user-pwd"
+                            id="user-password"><br>
+        <label for="Description">Description:</label>
+        <textarea rows="5" cols="50" name="Description"
+         id="Description"></textarea><br>
+         <input type="submit" value="Submit">
+         <input type="reset" value="Reset">
+                    
+    </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
